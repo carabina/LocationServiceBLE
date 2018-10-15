@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196B0DEEEE77AC47352CE3BE7A7C289B /* Pods-LocationServiceBLE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55658DBFAEF331AD7A1DDBD4AE390537 /* Pods-LocationServiceBLE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351693122174BE8A000909ED /* PackageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930A2174BE89000909ED /* PackageQueue.swift */; };
+		351693132174BE8A000909ED /* PackageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930A2174BE89000909ED /* PackageQueue.swift */; };
+		351693142174BE8A000909ED /* PackageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930A2174BE89000909ED /* PackageQueue.swift */; };
+		351693152174BE8A000909ED /* DataConvertiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930B2174BE89000909ED /* DataConvertiable.swift */; };
+		351693162174BE8A000909ED /* DataConvertiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930B2174BE89000909ED /* DataConvertiable.swift */; };
+		351693172174BE8A000909ED /* DataConvertiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930B2174BE89000909ED /* DataConvertiable.swift */; };
+		351693182174BE8A000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930D2174BE89000909ED /* PeripheralModelView.swift */; };
+		351693192174BE8A000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930D2174BE89000909ED /* PeripheralModelView.swift */; };
+		3516931A2174BE8A000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930D2174BE89000909ED /* PeripheralModelView.swift */; };
+		3516931B2174BE8A000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930E2174BE89000909ED /* PeripheralManager.swift */; };
+		3516931C2174BE8A000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930E2174BE89000909ED /* PeripheralManager.swift */; };
+		3516931D2174BE8A000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930E2174BE89000909ED /* PeripheralManager.swift */; };
+		3516931E2174BE8A000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930F2174BE89000909ED /* ServiceConfiguration.swift */; };
+		3516931F2174BE8A000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930F2174BE89000909ED /* ServiceConfiguration.swift */; };
+		351693202174BE8A000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930F2174BE89000909ED /* ServiceConfiguration.swift */; };
+		351693212174BE8A000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693112174BE89000909ED /* CBManagerState.swift */; };
+		351693222174BE8A000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693112174BE89000909ED /* CBManagerState.swift */; };
+		351693232174BE8A000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693112174BE89000909ED /* CBManagerState.swift */; };
+		6065BF8539A5A61605EF445660C24510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7135E202D8A1D375F4057695C1C0C330 /* Pods-LocationServiceBLE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EBED1CA7E04B6AAE05B8634EF0C4DE /* Pods-LocationServiceBLE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7304F408E2F915AB550902D1800C82A4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA4D1C967692526C104AB2916DD21A /* ReplaceMe.swift */; };
+		8F41BADDF20BD79B00C5EC65085B581C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A590CFFA24D0A4ED77DB4DEA9934120E /* Pods-LocationServiceBLE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B560DBAAD99107433CE459EEF65FE /* Pods-LocationServiceBLE_Tests-dummy.m */; };
+		A66A24101F6764547598C6EF075D190F /* Pods-LocationServiceBLE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CC8DA5AC3685817C93996EBBC2AFD /* Pods-LocationServiceBLE_Example-dummy.m */; };
+		E3F71835B3B0983DA4173908B58ADB1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FC64DECACBA89B1142AFC626AF1C1172 /* LocationServiceBLE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB06848D3775506C0B91705C2E6BA113 /* LocationServiceBLE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD5FFE4D38118CCE554887DBD5E6EE91 /* LocationServiceBLE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5912FEABC35DE566FC7B09ADE21DE /* LocationServiceBLE-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6F525FF72C2D8F862D7E5D116F10D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDB7DF13D61A36E88324469B97944BD;
+			remoteInfo = "Pods-LocationServiceBLE_Example";
+		};
+		BCF0E789287C34D79B286E3BEC068D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA66B62D4C9994371774DB1C00B3DE28;
+			remoteInfo = LocationServiceBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19EBED1CA7E04B6AAE05B8634EF0C4DE /* Pods-LocationServiceBLE_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationServiceBLE_Example-umbrella.h"; sourceTree = "<group>"; };
+		1CA98E8E93FE93FD94A6434B812F3BD2 /* Pods-LocationServiceBLE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationServiceBLE_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1CD5912FEABC35DE566FC7B09ADE21DE /* LocationServiceBLE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationServiceBLE-dummy.m"; sourceTree = "<group>"; };
+		1DC57CFC75356F9124EFA500B40F0D9A /* LocationServiceBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocationServiceBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F041433DC449F02399E5A5806403B69 /* LocationServiceBLE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationServiceBLE-prefix.pch"; sourceTree = "<group>"; };
+		26048E534115F9F29C86374F709F535A /* Pods-LocationServiceBLE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationServiceBLE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		282C25710491FC2DA38AF3388DE8B539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3516930A2174BE89000909ED /* PackageQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageQueue.swift; sourceTree = "<group>"; };
+		3516930B2174BE89000909ED /* DataConvertiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertiable.swift; sourceTree = "<group>"; };
+		3516930D2174BE89000909ED /* PeripheralModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModelView.swift; sourceTree = "<group>"; };
+		3516930E2174BE89000909ED /* PeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
+		3516930F2174BE89000909ED /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
+		351693112174BE89000909ED /* CBManagerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBManagerState.swift; sourceTree = "<group>"; };
+		39036E7950D5AD2FF21C95CF06B75518 /* LocationServiceBLE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationServiceBLE.modulemap; sourceTree = "<group>"; };
+		3E9F9DF5FB31B5FD2C4C27BC40F0B3B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C72237E02E21DD21BE1863DC69DC1C0 /* Pods-LocationServiceBLE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationServiceBLE_Example.modulemap"; sourceTree = "<group>"; };
+		4FAA001D72633E6C6F727A9654C09E58 /* Pods-LocationServiceBLE_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationServiceBLE_Example-resources.sh"; sourceTree = "<group>"; };
+		55658DBFAEF331AD7A1DDBD4AE390537 /* Pods-LocationServiceBLE_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationServiceBLE_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B7CC8DA5AC3685817C93996EBBC2AFD /* Pods-LocationServiceBLE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationServiceBLE_Example-dummy.m"; sourceTree = "<group>"; };
+		5C3D4EC85A83686D91D2B140414946A4 /* Pods_LocationServiceBLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationServiceBLE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0C8DA291E0616ABF0BDFDB34520086 /* LocationServiceBLE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocationServiceBLE.xcconfig; sourceTree = "<group>"; };
+		6480C2BA7A4867195C31C95700B342E6 /* Pods-LocationServiceBLE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationServiceBLE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A71F71F8E3A7A3DD86228D620CF3B4 /* Pods_LocationServiceBLE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationServiceBLE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF2B1308BEEE65C7EFB5CA7F67EB91B /* Pods-LocationServiceBLE_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationServiceBLE_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B1E180A33ED2C3EA7DF88A321E24ECA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9B560DBAAD99107433CE459EEF65FE /* Pods-LocationServiceBLE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationServiceBLE_Tests-dummy.m"; sourceTree = "<group>"; };
+		92AE0ACCCEB93B89628BDED69668FA54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		969740BB16FAFD26C455C81F9FAAF009 /* Pods-LocationServiceBLE_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationServiceBLE_Tests.modulemap"; sourceTree = "<group>"; };
+		9A462138CAD19F20C2B1848E21F1449A /* Pods-LocationServiceBLE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationServiceBLE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6751AD3BAC48C587C02CC153E95017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF72C09C8273B7E833F16E654728F8C4 /* LocationServiceBLE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LocationServiceBLE.podspec; sourceTree = "<group>"; };
+		B11E43E4F5CD83D53EF47029F1565584 /* Pods-LocationServiceBLE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationServiceBLE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB06848D3775506C0B91705C2E6BA113 /* LocationServiceBLE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationServiceBLE-umbrella.h"; sourceTree = "<group>"; };
+		BB2F0AEB0E004F60138E65119B41EAD8 /* Pods-LocationServiceBLE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationServiceBLE_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BEDD2DC4A8E384F654B21BAF6631706C /* Pods-LocationServiceBLE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationServiceBLE_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C7A1E197A97B9698419782B3479DA24E /* Pods-LocationServiceBLE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationServiceBLE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DABB4559239DCF587036D6C47F0EB9C5 /* Pods-LocationServiceBLE_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationServiceBLE_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E7BA4D1C967692526C104AB2916DD21A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LocationServiceBLE/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F44156353C3805CEE32BB88D9E5D04CE /* Pods-LocationServiceBLE_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationServiceBLE_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26461DDF91560F370A35E4676DBB246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6065BF8539A5A61605EF445660C24510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F325BDC2BCAFF7B069844354CEFE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41BADDF20BD79B00C5EC65085B581C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F8CD8166DA4AB7B3269562C25192DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F71835B3B0983DA4173908B58ADB1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF5A97CDCCF0337E13C939BECC4AE6C /* Pods-LocationServiceBLE_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B6751AD3BAC48C587C02CC153E95017 /* Info.plist */,
+				4C72237E02E21DD21BE1863DC69DC1C0 /* Pods-LocationServiceBLE_Example.modulemap */,
+				6480C2BA7A4867195C31C95700B342E6 /* Pods-LocationServiceBLE_Example-acknowledgements.markdown */,
+				C7A1E197A97B9698419782B3479DA24E /* Pods-LocationServiceBLE_Example-acknowledgements.plist */,
+				5B7CC8DA5AC3685817C93996EBBC2AFD /* Pods-LocationServiceBLE_Example-dummy.m */,
+				DABB4559239DCF587036D6C47F0EB9C5 /* Pods-LocationServiceBLE_Example-frameworks.sh */,
+				4FAA001D72633E6C6F727A9654C09E58 /* Pods-LocationServiceBLE_Example-resources.sh */,
+				19EBED1CA7E04B6AAE05B8634EF0C4DE /* Pods-LocationServiceBLE_Example-umbrella.h */,
+				BB2F0AEB0E004F60138E65119B41EAD8 /* Pods-LocationServiceBLE_Example.debug.xcconfig */,
+				BEDD2DC4A8E384F654B21BAF6631706C /* Pods-LocationServiceBLE_Example.release.xcconfig */,
+			);
+			name = "Pods-LocationServiceBLE_Example";
+			path = "Target Support Files/Pods-LocationServiceBLE_Example";
+			sourceTree = "<group>";
+		};
+		3516930C2174BE89000909ED /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				3516930D2174BE89000909ED /* PeripheralModelView.swift */,
+				3516930E2174BE89000909ED /* PeripheralManager.swift */,
+			);
+			path = Peripheral;
+			sourceTree = "<group>";
+		};
+		351693102174BE89000909ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				351693112174BE89000909ED /* CBManagerState.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FEBFBC895EDF5EF242FDBB0F2CDE1084 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C31B864A91D449773494F1C9B98268A1 /* Products */,
+				E63ED6B9CB1EB92DFBBDD1F60BB7BC29 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0F541DBA6B5D5361D77CCF7FF19D15 /* Pods-LocationServiceBLE_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1E180A33ED2C3EA7DF88A321E24ECA /* Info.plist */,
+				969740BB16FAFD26C455C81F9FAAF009 /* Pods-LocationServiceBLE_Tests.modulemap */,
+				B11E43E4F5CD83D53EF47029F1565584 /* Pods-LocationServiceBLE_Tests-acknowledgements.markdown */,
+				26048E534115F9F29C86374F709F535A /* Pods-LocationServiceBLE_Tests-acknowledgements.plist */,
+				8E9B560DBAAD99107433CE459EEF65FE /* Pods-LocationServiceBLE_Tests-dummy.m */,
+				F44156353C3805CEE32BB88D9E5D04CE /* Pods-LocationServiceBLE_Tests-frameworks.sh */,
+				6BF2B1308BEEE65C7EFB5CA7F67EB91B /* Pods-LocationServiceBLE_Tests-resources.sh */,
+				55658DBFAEF331AD7A1DDBD4AE390537 /* Pods-LocationServiceBLE_Tests-umbrella.h */,
+				9A462138CAD19F20C2B1848E21F1449A /* Pods-LocationServiceBLE_Tests.debug.xcconfig */,
+				1CA98E8E93FE93FD94A6434B812F3BD2 /* Pods-LocationServiceBLE_Tests.release.xcconfig */,
+			);
+			name = "Pods-LocationServiceBLE_Tests";
+			path = "Target Support Files/Pods-LocationServiceBLE_Tests";
+			sourceTree = "<group>";
+		};
+		B46E50B609C235EBF007BB8DC53E7770 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92AE0ACCCEB93B89628BDED69668FA54 /* Info.plist */,
+				39036E7950D5AD2FF21C95CF06B75518 /* LocationServiceBLE.modulemap */,
+				5F0C8DA291E0616ABF0BDFDB34520086 /* LocationServiceBLE.xcconfig */,
+				1CD5912FEABC35DE566FC7B09ADE21DE /* LocationServiceBLE-dummy.m */,
+				1F041433DC449F02399E5A5806403B69 /* LocationServiceBLE-prefix.pch */,
+				BB06848D3775506C0B91705C2E6BA113 /* LocationServiceBLE-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocationServiceBLE";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE65F27AD16D9B1E42BCEAD8E1332A11 /* LocationServiceBLE */ = {
+			isa = PBXGroup;
+			children = (
+				3516930B2174BE89000909ED /* DataConvertiable.swift */,
+				351693102174BE89000909ED /* Extensions */,
+				3516930A2174BE89000909ED /* PackageQueue.swift */,
+				3516930C2174BE89000909ED /* Peripheral */,
+				3516930F2174BE89000909ED /* ServiceConfiguration.swift */,
+				E7BA4D1C967692526C104AB2916DD21A /* ReplaceMe.swift */,
+				BF03EB652C70B7517BEE21107875986D /* Pod */,
+				B46E50B609C235EBF007BB8DC53E7770 /* Support Files */,
+			);
+			name = LocationServiceBLE;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BF03EB652C70B7517BEE21107875986D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				282C25710491FC2DA38AF3388DE8B539 /* LICENSE */,
+				AF72C09C8273B7E833F16E654728F8C4 /* LocationServiceBLE.podspec */,
+				3E9F9DF5FB31B5FD2C4C27BC40F0B3B1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C31B864A91D449773494F1C9B98268A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC57CFC75356F9124EFA500B40F0D9A /* LocationServiceBLE.framework */,
+				65A71F71F8E3A7A3DD86228D620CF3B4 /* Pods_LocationServiceBLE_Example.framework */,
+				5C3D4EC85A83686D91D2B140414946A4 /* Pods_LocationServiceBLE_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63ED6B9CB1EB92DFBBDD1F60BB7BC29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF5A97CDCCF0337E13C939BECC4AE6C /* Pods-LocationServiceBLE_Example */,
+				AA0F541DBA6B5D5361D77CCF7FF19D15 /* Pods-LocationServiceBLE_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FEBFBC895EDF5EF242FDBB0F2CDE1084 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE65F27AD16D9B1E42BCEAD8E1332A11 /* LocationServiceBLE */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		324E6D39586B044843B6A868F9E86BC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC64DECACBA89B1142AFC626AF1C1172 /* LocationServiceBLE-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CD44EE648D85162B3A4587B1863B4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7135E202D8A1D375F4057695C1C0C330 /* Pods-LocationServiceBLE_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815DA74FAFF94CECAA8A124105902A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196B0DEEEE77AC47352CE3BE7A7C289B /* Pods-LocationServiceBLE_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DDB7DF13D61A36E88324469B97944BD /* Pods-LocationServiceBLE_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F612B6BB6ECF82A21BA7962DE145C29 /* Build configuration list for PBXNativeTarget "Pods-LocationServiceBLE_Example" */;
+			buildPhases = (
+				44CD44EE648D85162B3A4587B1863B4C /* Headers */,
+				075BEDE0FF9723D2552C0399551B1910 /* Sources */,
+				B26461DDF91560F370A35E4676DBB246 /* Frameworks */,
+				30B8EC8C3D205F09EE4FE02F93EA8373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55D77DB45E055BEFE1A4D8CE75AB352 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocationServiceBLE_Example";
+			productName = "Pods-LocationServiceBLE_Example";
+			productReference = 65A71F71F8E3A7A3DD86228D620CF3B4 /* Pods_LocationServiceBLE_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA66B62D4C9994371774DB1C00B3DE28 /* LocationServiceBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE109A42C49431468B0743215644FD /* Build configuration list for PBXNativeTarget "LocationServiceBLE" */;
+			buildPhases = (
+				324E6D39586B044843B6A868F9E86BC3 /* Headers */,
+				638776BCF42B6308A4AE7C26EF1F4FE7 /* Sources */,
+				D4F325BDC2BCAFF7B069844354CEFE6A /* Frameworks */,
+				DDEC5B8C2293749C51BA19D2FCA7ABC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationServiceBLE;
+			productName = LocationServiceBLE;
+			productReference = 1DC57CFC75356F9124EFA500B40F0D9A /* LocationServiceBLE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD67FA8FA678B4ECA29D6B240E501633 /* Pods-LocationServiceBLE_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA0DEC9FBF0C6380000A37B0F713A96 /* Build configuration list for PBXNativeTarget "Pods-LocationServiceBLE_Tests" */;
+			buildPhases = (
+				5815DA74FAFF94CECAA8A124105902A0 /* Headers */,
+				4277516A1F529AD1CBAADB7BA03C4FCF /* Sources */,
+				F3F8CD8166DA4AB7B3269562C25192DE /* Frameworks */,
+				23CCF4FE438B1BE6AD18D78E743B7097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A756DE19376D7349C3E83636283BA32D /* PBXTargetDependency */,
+			);
+			name = "Pods-LocationServiceBLE_Tests";
+			productName = "Pods-LocationServiceBLE_Tests";
+			productReference = 5C3D4EC85A83686D91D2B140414946A4 /* Pods_LocationServiceBLE_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					0DDB7DF13D61A36E88324469B97944BD = {
+						LastSwiftMigration = 1000;
+					};
+					AA66B62D4C9994371774DB1C00B3DE28 = {
+						LastSwiftMigration = 1000;
+					};
+					CD67FA8FA678B4ECA29D6B240E501633 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C31B864A91D449773494F1C9B98268A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA66B62D4C9994371774DB1C00B3DE28 /* LocationServiceBLE */,
+				0DDB7DF13D61A36E88324469B97944BD /* Pods-LocationServiceBLE_Example */,
+				CD67FA8FA678B4ECA29D6B240E501633 /* Pods-LocationServiceBLE_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23CCF4FE438B1BE6AD18D78E743B7097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B8EC8C3D205F09EE4FE02F93EA8373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC5B8C2293749C51BA19D2FCA7ABC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075BEDE0FF9723D2552C0399551B1910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351693222174BE8A000909ED /* CBManagerState.swift in Sources */,
+				3516931C2174BE8A000909ED /* PeripheralManager.swift in Sources */,
+				351693192174BE8A000909ED /* PeripheralModelView.swift in Sources */,
+				3516931F2174BE8A000909ED /* ServiceConfiguration.swift in Sources */,
+				351693132174BE8A000909ED /* PackageQueue.swift in Sources */,
+				A66A24101F6764547598C6EF075D190F /* Pods-LocationServiceBLE_Example-dummy.m in Sources */,
+				351693162174BE8A000909ED /* DataConvertiable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4277516A1F529AD1CBAADB7BA03C4FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351693232174BE8A000909ED /* CBManagerState.swift in Sources */,
+				3516931D2174BE8A000909ED /* PeripheralManager.swift in Sources */,
+				3516931A2174BE8A000909ED /* PeripheralModelView.swift in Sources */,
+				351693202174BE8A000909ED /* ServiceConfiguration.swift in Sources */,
+				351693142174BE8A000909ED /* PackageQueue.swift in Sources */,
+				A590CFFA24D0A4ED77DB4DEA9934120E /* Pods-LocationServiceBLE_Tests-dummy.m in Sources */,
+				351693172174BE8A000909ED /* DataConvertiable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638776BCF42B6308A4AE7C26EF1F4FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351693212174BE8A000909ED /* CBManagerState.swift in Sources */,
+				3516931E2174BE8A000909ED /* ServiceConfiguration.swift in Sources */,
+				351693182174BE8A000909ED /* PeripheralModelView.swift in Sources */,
+				FD5FFE4D38118CCE554887DBD5E6EE91 /* LocationServiceBLE-dummy.m in Sources */,
+				351693152174BE8A000909ED /* DataConvertiable.swift in Sources */,
+				3516931B2174BE8A000909ED /* PeripheralManager.swift in Sources */,
+				7304F408E2F915AB550902D1800C82A4 /* ReplaceMe.swift in Sources */,
+				351693122174BE8A000909ED /* PackageQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A756DE19376D7349C3E83636283BA32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LocationServiceBLE_Example";
+			target = 0DDB7DF13D61A36E88324469B97944BD /* Pods-LocationServiceBLE_Example */;
+			targetProxy = A6F525FF72C2D8F862D7E5D116F10D4A /* PBXContainerItemProxy */;
+		};
+		E55D77DB45E055BEFE1A4D8CE75AB352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocationServiceBLE;
+			target = AA66B62D4C9994371774DB1C00B3DE28 /* LocationServiceBLE */;
+			targetProxy = BCF0E789287C34D79B286E3BEC068D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10EFDCBEFACD7D9964679320319BD75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0C8DA291E0616ABF0BDFDB34520086 /* LocationServiceBLE.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocationServiceBLE/LocationServiceBLE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocationServiceBLE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocationServiceBLE/LocationServiceBLE.modulemap";
+				PRODUCT_MODULE_NAME = LocationServiceBLE;
+				PRODUCT_NAME = LocationServiceBLE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B1507F3E8530E4FE1BEEA60C5851EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDD2DC4A8E384F654B21BAF6631706C /* Pods-LocationServiceBLE_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationServiceBLE_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationServiceBLE_Example/Pods-LocationServiceBLE_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F0B2D6F0418F6CE17CC9C681941DB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0C8DA291E0616ABF0BDFDB34520086 /* LocationServiceBLE.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocationServiceBLE/LocationServiceBLE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocationServiceBLE/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocationServiceBLE/LocationServiceBLE.modulemap";
+				PRODUCT_MODULE_NAME = LocationServiceBLE;
+				PRODUCT_NAME = LocationServiceBLE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4155B36D4591FDA5F792E8AC4262FB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA98E8E93FE93FD94A6434B812F3BD2 /* Pods-LocationServiceBLE_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationServiceBLE_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationServiceBLE_Tests/Pods-LocationServiceBLE_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		979425C32ABE7EAC386BAAB04E9797ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A462138CAD19F20C2B1848E21F1449A /* Pods-LocationServiceBLE_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationServiceBLE_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationServiceBLE_Tests/Pods-LocationServiceBLE_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C75D9439E749556BE727E29A7DA339D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2F0AEB0E004F60138E65119B41EAD8 /* Pods-LocationServiceBLE_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationServiceBLE_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationServiceBLE_Example/Pods-LocationServiceBLE_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA0DEC9FBF0C6380000A37B0F713A96 /* Build configuration list for PBXNativeTarget "Pods-LocationServiceBLE_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979425C32ABE7EAC386BAAB04E9797ED /* Debug */,
+				4155B36D4591FDA5F792E8AC4262FB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE109A42C49431468B0743215644FD /* Build configuration list for PBXNativeTarget "LocationServiceBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0B2D6F0418F6CE17CC9C681941DB5A /* Debug */,
+				10EFDCBEFACD7D9964679320319BD75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F612B6BB6ECF82A21BA7962DE145C29 /* Build configuration list for PBXNativeTarget "Pods-LocationServiceBLE_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D9439E749556BE727E29A7DA339D4 /* Debug */,
+				2B1507F3E8530E4FE1BEEA60C5851EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

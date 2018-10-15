@@ -1,0 +1,16 @@
+PODS:
+  - LocationServiceBLE (0.1.0)
+
+DEPENDENCIES:
+  - LocationServiceBLE (from `../`)
+
+EXTERNAL SOURCES:
+  LocationServiceBLE:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LocationServiceBLE: 06fde04cb074582ba0e6b3593d1a5525588a0e65
+
+PODFILE CHECKSUM: ef883e8ad57570c45be4a62346a326a45c1f4f7c
+
+COCOAPODS: 1.5.3
