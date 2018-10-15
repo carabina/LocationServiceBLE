@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LocationServiceBLE_Example' do
+  pod 'LocationServiceBLE', :path => '../'
+
+  target 'LocationServiceBLE_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
