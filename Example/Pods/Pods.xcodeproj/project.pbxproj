@@ -8,24 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		196B0DEEEE77AC47352CE3BE7A7C289B /* Pods-LocationServiceBLE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55658DBFAEF331AD7A1DDBD4AE390537 /* Pods-LocationServiceBLE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		351693122174BE8A000909ED /* PackageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930A2174BE89000909ED /* PackageQueue.swift */; };
-		351693132174BE8A000909ED /* PackageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930A2174BE89000909ED /* PackageQueue.swift */; };
-		351693142174BE8A000909ED /* PackageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930A2174BE89000909ED /* PackageQueue.swift */; };
-		351693152174BE8A000909ED /* DataConvertiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930B2174BE89000909ED /* DataConvertiable.swift */; };
-		351693162174BE8A000909ED /* DataConvertiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930B2174BE89000909ED /* DataConvertiable.swift */; };
-		351693172174BE8A000909ED /* DataConvertiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930B2174BE89000909ED /* DataConvertiable.swift */; };
-		351693182174BE8A000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930D2174BE89000909ED /* PeripheralModelView.swift */; };
-		351693192174BE8A000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930D2174BE89000909ED /* PeripheralModelView.swift */; };
-		3516931A2174BE8A000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930D2174BE89000909ED /* PeripheralModelView.swift */; };
-		3516931B2174BE8A000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930E2174BE89000909ED /* PeripheralManager.swift */; };
-		3516931C2174BE8A000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930E2174BE89000909ED /* PeripheralManager.swift */; };
-		3516931D2174BE8A000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930E2174BE89000909ED /* PeripheralManager.swift */; };
-		3516931E2174BE8A000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930F2174BE89000909ED /* ServiceConfiguration.swift */; };
-		3516931F2174BE8A000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930F2174BE89000909ED /* ServiceConfiguration.swift */; };
-		351693202174BE8A000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516930F2174BE89000909ED /* ServiceConfiguration.swift */; };
-		351693212174BE8A000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693112174BE89000909ED /* CBManagerState.swift */; };
-		351693222174BE8A000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693112174BE89000909ED /* CBManagerState.swift */; };
-		351693232174BE8A000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693112174BE89000909ED /* CBManagerState.swift */; };
 		6065BF8539A5A61605EF445660C24510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7135E202D8A1D375F4057695C1C0C330 /* Pods-LocationServiceBLE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EBED1CA7E04B6AAE05B8634EF0C4DE /* Pods-LocationServiceBLE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7304F408E2F915AB550902D1800C82A4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA4D1C967692526C104AB2916DD21A /* ReplaceMe.swift */; };
@@ -62,12 +44,6 @@
 		1F041433DC449F02399E5A5806403B69 /* LocationServiceBLE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationServiceBLE-prefix.pch"; sourceTree = "<group>"; };
 		26048E534115F9F29C86374F709F535A /* Pods-LocationServiceBLE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationServiceBLE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		282C25710491FC2DA38AF3388DE8B539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3516930A2174BE89000909ED /* PackageQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageQueue.swift; sourceTree = "<group>"; };
-		3516930B2174BE89000909ED /* DataConvertiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertiable.swift; sourceTree = "<group>"; };
-		3516930D2174BE89000909ED /* PeripheralModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModelView.swift; sourceTree = "<group>"; };
-		3516930E2174BE89000909ED /* PeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
-		3516930F2174BE89000909ED /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
-		351693112174BE89000909ED /* CBManagerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBManagerState.swift; sourceTree = "<group>"; };
 		39036E7950D5AD2FF21C95CF06B75518 /* LocationServiceBLE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationServiceBLE.modulemap; sourceTree = "<group>"; };
 		3E9F9DF5FB31B5FD2C4C27BC40F0B3B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C72237E02E21DD21BE1863DC69DC1C0 /* Pods-LocationServiceBLE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationServiceBLE_Example.modulemap"; sourceTree = "<group>"; };
@@ -144,23 +120,6 @@
 			path = "Target Support Files/Pods-LocationServiceBLE_Example";
 			sourceTree = "<group>";
 		};
-		3516930C2174BE89000909ED /* Peripheral */ = {
-			isa = PBXGroup;
-			children = (
-				3516930D2174BE89000909ED /* PeripheralModelView.swift */,
-				3516930E2174BE89000909ED /* PeripheralManager.swift */,
-			);
-			path = Peripheral;
-			sourceTree = "<group>";
-		};
-		351693102174BE89000909ED /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				351693112174BE89000909ED /* CBManagerState.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,11 +182,6 @@
 		BE65F27AD16D9B1E42BCEAD8E1332A11 /* LocationServiceBLE */ = {
 			isa = PBXGroup;
 			children = (
-				3516930B2174BE89000909ED /* DataConvertiable.swift */,
-				351693102174BE89000909ED /* Extensions */,
-				3516930A2174BE89000909ED /* PackageQueue.swift */,
-				3516930C2174BE89000909ED /* Peripheral */,
-				3516930F2174BE89000909ED /* ServiceConfiguration.swift */,
 				E7BA4D1C967692526C104AB2916DD21A /* ReplaceMe.swift */,
 				BF03EB652C70B7517BEE21107875986D /* Pod */,
 				B46E50B609C235EBF007BB8DC53E7770 /* Support Files */,
@@ -427,13 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351693222174BE8A000909ED /* CBManagerState.swift in Sources */,
-				3516931C2174BE8A000909ED /* PeripheralManager.swift in Sources */,
-				351693192174BE8A000909ED /* PeripheralModelView.swift in Sources */,
-				3516931F2174BE8A000909ED /* ServiceConfiguration.swift in Sources */,
-				351693132174BE8A000909ED /* PackageQueue.swift in Sources */,
 				A66A24101F6764547598C6EF075D190F /* Pods-LocationServiceBLE_Example-dummy.m in Sources */,
-				351693162174BE8A000909ED /* DataConvertiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,13 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351693232174BE8A000909ED /* CBManagerState.swift in Sources */,
-				3516931D2174BE8A000909ED /* PeripheralManager.swift in Sources */,
-				3516931A2174BE8A000909ED /* PeripheralModelView.swift in Sources */,
-				351693202174BE8A000909ED /* ServiceConfiguration.swift in Sources */,
-				351693142174BE8A000909ED /* PackageQueue.swift in Sources */,
 				A590CFFA24D0A4ED77DB4DEA9934120E /* Pods-LocationServiceBLE_Tests-dummy.m in Sources */,
-				351693172174BE8A000909ED /* DataConvertiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,14 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351693212174BE8A000909ED /* CBManagerState.swift in Sources */,
-				3516931E2174BE8A000909ED /* ServiceConfiguration.swift in Sources */,
-				351693182174BE8A000909ED /* PeripheralModelView.swift in Sources */,
 				FD5FFE4D38118CCE554887DBD5E6EE91 /* LocationServiceBLE-dummy.m in Sources */,
-				351693152174BE8A000909ED /* DataConvertiable.swift in Sources */,
-				3516931B2174BE8A000909ED /* PeripheralManager.swift in Sources */,
 				7304F408E2F915AB550902D1800C82A4 /* ReplaceMe.swift in Sources */,
-				351693122174BE8A000909ED /* PackageQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
