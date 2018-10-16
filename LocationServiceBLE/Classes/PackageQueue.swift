@@ -11,12 +11,13 @@ import Foundation
 
 struct PackageQueue {
     
+    var config = Service()
     var packages: [Data]
     var packageCounter: Int
     var packIndex: Int = 0
     
-    init(packageData: Data, chunkSize: Int) {
-        packages = packageData.chunked(bySize: chunkSize)
+    init(packageData: Data) {
+        packages = packageData.chunked(bySize: config.MTU)
         packageCounter = packages.count
     }
     

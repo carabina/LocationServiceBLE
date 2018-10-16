@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'LocationServiceBLE_Example' do
   pod 'LocationServiceBLE', :path => '../'
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
 
   target 'LocationServiceBLE_Tests' do
     inherit! :search_paths

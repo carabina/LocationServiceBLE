@@ -1,16 +1,30 @@
 PODS:
-  - LocationServiceBLE (0.1.0)
+  - LocationServiceBLE (0.0.3):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
 
 DEPENDENCIES:
   - LocationServiceBLE (from `../`)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxSwift
 
 EXTERNAL SOURCES:
   LocationServiceBLE:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocationServiceBLE: 06fde04cb074582ba0e6b3593d1a5525588a0e65
+  LocationServiceBLE: 493110d1045aff4a139ab28f0aa7a4744d737200
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
 
-PODFILE CHECKSUM: ef883e8ad57570c45be4a62346a326a45c1f4f7c
+PODFILE CHECKSUM: 5f12446c2a9a598581c7ad8bd779ff8f11ab82e0
 
 COCOAPODS: 1.5.3

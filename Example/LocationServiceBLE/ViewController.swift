@@ -10,11 +10,10 @@ import UIKit
 import LocationServiceBLE
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 
 
 }
