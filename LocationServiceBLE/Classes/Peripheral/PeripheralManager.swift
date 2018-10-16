@@ -14,6 +14,7 @@ import RxSwift
 class PeripheralManager: NSObject {
     
     
+    public let subjecet = PublishSubject<DeviceLocation>()
     var manager: CBPeripheralManager?
     let config: Service?
     
@@ -27,6 +28,10 @@ override init() {
     }
     
     func createService() {
+    }
+    
+    func startSending() {
+        
     }
     
 }

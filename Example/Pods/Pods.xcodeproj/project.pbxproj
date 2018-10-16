@@ -12,11 +12,6 @@
 		3516932E2174D3EB000909ED /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693242174D3EA000909ED /* DataConvertible.swift */; };
 		3516932F2174D3EB000909ED /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693242174D3EA000909ED /* DataConvertible.swift */; };
 		351693302174D3EB000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693252174D3EB000909ED /* ServiceConfiguration.swift */; };
-		351693312174D3EB000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693252174D3EB000909ED /* ServiceConfiguration.swift */; };
-		351693322174D3EB000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693252174D3EB000909ED /* ServiceConfiguration.swift */; };
-		351693332174D3EB000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693272174D3EB000909ED /* PeripheralModelView.swift */; };
-		351693342174D3EB000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693272174D3EB000909ED /* PeripheralModelView.swift */; };
-		351693352174D3EB000909ED /* PeripheralModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693272174D3EB000909ED /* PeripheralModelView.swift */; };
 		351693362174D3EB000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693282174D3EB000909ED /* PeripheralManager.swift */; };
 		351693372174D3EB000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693282174D3EB000909ED /* PeripheralManager.swift */; };
 		351693382174D3EB000909ED /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693282174D3EB000909ED /* PeripheralManager.swift */; };
@@ -26,6 +21,11 @@
 		3516933F2174D3EB000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516932C2174D3EB000909ED /* CBManagerState.swift */; };
 		351693402174D3EB000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516932C2174D3EB000909ED /* CBManagerState.swift */; };
 		351693412174D3EB000909ED /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516932C2174D3EB000909ED /* CBManagerState.swift */; };
+		3516934B2175CDC8000909ED /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516934A2175CDC8000909ED /* CoreDataManager.swift */; };
+		3516934D2175CDE2000909ED /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516934C2175CDE2000909ED /* LocationManager.swift */; };
+		351693502175D1A6000909ED /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516934F2175D1A6000909ED /* DeviceLocation.swift */; };
+		351693512175D34F000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693252174D3EB000909ED /* ServiceConfiguration.swift */; };
+		351693522175D34F000909ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351693252174D3EB000909ED /* ServiceConfiguration.swift */; };
 		7135E202D8A1D375F4057695C1C0C330 /* Pods-LocationServiceBLE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EBED1CA7E04B6AAE05B8634EF0C4DE /* Pods-LocationServiceBLE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A590CFFA24D0A4ED77DB4DEA9934120E /* Pods-LocationServiceBLE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B560DBAAD99107433CE459EEF65FE /* Pods-LocationServiceBLE_Tests-dummy.m */; };
 		A66A24101F6764547598C6EF075D190F /* Pods-LocationServiceBLE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CC8DA5AC3685817C93996EBBC2AFD /* Pods-LocationServiceBLE_Example-dummy.m */; };
@@ -59,11 +59,13 @@
 		26048E534115F9F29C86374F709F535A /* Pods-LocationServiceBLE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationServiceBLE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		282C25710491FC2DA38AF3388DE8B539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		351693242174D3EA000909ED /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
-		351693252174D3EB000909ED /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceConfiguration.swift; path = LocationServiceBLE/Classes/ServiceConfiguration.swift; sourceTree = "<group>"; };
-		351693272174D3EB000909ED /* PeripheralModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModelView.swift; sourceTree = "<group>"; };
+		351693252174D3EB000909ED /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
 		351693282174D3EB000909ED /* PeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
 		3516932A2174D3EB000909ED /* PackageQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PackageQueue.swift; path = LocationServiceBLE/Classes/PackageQueue.swift; sourceTree = "<group>"; };
 		3516932C2174D3EB000909ED /* CBManagerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBManagerState.swift; sourceTree = "<group>"; };
+		3516934A2175CDC8000909ED /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3516934C2175CDE2000909ED /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3516934F2175D1A6000909ED /* DeviceLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceLocation.swift; sourceTree = "<group>"; };
 		39036E7950D5AD2FF21C95CF06B75518 /* LocationServiceBLE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocationServiceBLE.modulemap; sourceTree = "<group>"; };
 		3E9F9DF5FB31B5FD2C4C27BC40F0B3B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C72237E02E21DD21BE1863DC69DC1C0 /* Pods-LocationServiceBLE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationServiceBLE_Example.modulemap"; sourceTree = "<group>"; };
@@ -139,7 +141,6 @@
 		351693262174D3EB000909ED /* Peripheral */ = {
 			isa = PBXGroup;
 			children = (
-				351693272174D3EB000909ED /* PeripheralModelView.swift */,
 				351693282174D3EB000909ED /* PeripheralManager.swift */,
 			);
 			name = Peripheral;
@@ -154,6 +155,16 @@
 			);
 			name = Extensions;
 			path = LocationServiceBLE/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		3516934E2175CDEF000909ED /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3516934F2175D1A6000909ED /* DeviceLocation.swift */,
+				3516934A2175CDC8000909ED /* CoreDataManager.swift */,
+				3516934C2175CDE2000909ED /* LocationManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -220,6 +231,7 @@
 			children = (
 				3516932B2174D3EB000909ED /* Extensions */,
 				3516932A2174D3EB000909ED /* PackageQueue.swift */,
+				3516934E2175CDEF000909ED /* Manager */,
 				351693262174D3EB000909ED /* Peripheral */,
 				351693252174D3EB000909ED /* ServiceConfiguration.swift */,
 				BF03EB652C70B7517BEE21107875986D /* Pod */,
@@ -422,11 +434,10 @@
 			files = (
 				351693402174D3EB000909ED /* CBManagerState.swift in Sources */,
 				3516933D2174D3EB000909ED /* PackageQueue.swift in Sources */,
+				351693512175D34F000909ED /* ServiceConfiguration.swift in Sources */,
 				351693372174D3EB000909ED /* PeripheralManager.swift in Sources */,
-				351693342174D3EB000909ED /* PeripheralModelView.swift in Sources */,
 				A66A24101F6764547598C6EF075D190F /* Pods-LocationServiceBLE_Example-dummy.m in Sources */,
 				3516932E2174D3EB000909ED /* DataConvertible.swift in Sources */,
-				351693312174D3EB000909ED /* ServiceConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +447,10 @@
 			files = (
 				351693412174D3EB000909ED /* CBManagerState.swift in Sources */,
 				3516933E2174D3EB000909ED /* PackageQueue.swift in Sources */,
+				351693522175D34F000909ED /* ServiceConfiguration.swift in Sources */,
 				351693382174D3EB000909ED /* PeripheralManager.swift in Sources */,
-				351693352174D3EB000909ED /* PeripheralModelView.swift in Sources */,
 				A590CFFA24D0A4ED77DB4DEA9934120E /* Pods-LocationServiceBLE_Tests-dummy.m in Sources */,
 				3516932F2174D3EB000909ED /* DataConvertible.swift in Sources */,
-				351693322174D3EB000909ED /* ServiceConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,12 +458,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351693332174D3EB000909ED /* PeripheralModelView.swift in Sources */,
 				FD5FFE4D38118CCE554887DBD5E6EE91 /* LocationServiceBLE-dummy.m in Sources */,
 				351693362174D3EB000909ED /* PeripheralManager.swift in Sources */,
+				3516934D2175CDE2000909ED /* LocationManager.swift in Sources */,
 				3516933F2174D3EB000909ED /* CBManagerState.swift in Sources */,
 				351693302174D3EB000909ED /* ServiceConfiguration.swift in Sources */,
+				351693502175D1A6000909ED /* DeviceLocation.swift in Sources */,
 				3516933C2174D3EB000909ED /* PackageQueue.swift in Sources */,
+				3516934B2175CDC8000909ED /* CoreDataManager.swift in Sources */,
 				3516932D2174D3EB000909ED /* DataConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
