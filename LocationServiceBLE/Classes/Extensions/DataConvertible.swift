@@ -9,14 +9,14 @@
 import Foundation
 
 
-protocol DataConvertiable {
+protocol DataConvertible {
     init?(data: Data)
     var data: Data { get }
 }
 
 // MARK: - Transforms Types that conforms to this protocol to its byte size
 
-extension DataConvertiable {
+extension DataConvertible {
     init?(data: Data){
         guard data.count == MemoryLayout<Self>.size else { return nil }
         self = data.withUnsafeBytes{ $0.pointee }
@@ -28,9 +28,9 @@ extension DataConvertiable {
     }
 }
 
-extension Int: DataConvertiable{}
-extension Double: DataConvertiable {}
-extension String: DataConvertiable {}
+extension Int: DataConvertible{}
+extension Double: DataConvertible {}
+extension String: DataConvertible {}
 
 
 extension Data {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocationServiceBLE'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'LocationServiceBLE exposes location data via Bluetooth'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'RxCocoa', '~> 4.0'
+  
 end

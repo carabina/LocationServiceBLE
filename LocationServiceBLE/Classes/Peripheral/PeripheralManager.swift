@@ -8,6 +8,8 @@
 
 import Foundation
 import CoreBluetooth
+import RxCocoa
+import RxSwift
 
 class PeripheralManager: NSObject {
     
